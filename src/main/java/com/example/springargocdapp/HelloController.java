@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping(path = "/hello")
     public String sayHello() {
-        return "hello from spring argo cd app";
+        return "hello from spring argo cd app!!!!";
     }
 }
